@@ -238,6 +238,16 @@ table {
     border-spacing: 0;
 }
 
+body {
+    background-color: var(--background-color);
+    /* background-image: url("../images/background.png"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Outfit", sans-serif;
+    padding: 0.5rem;
+    overflow-y: hidden;
+}
+
 main {
     display: flex;
     justify-content: center;
@@ -248,14 +258,14 @@ main {
 }
 
 h1 {
-    color: black;
+    color: white;
     font-size: 4.25rem;
 
     margin-bottom: 1.5rem;
 }
 
 p {
-    color: black;
+    color: white;
     font-size: 1.2rem;
     font-weight: 200;
     max-width: 40rem;
@@ -311,7 +321,7 @@ nav {
 }
 
 nav a {
-    color: black;
+    color: white;
     text-decoration: none;
     background: var(--main-color);
     border: 2px solid var(--border-color);
