@@ -248,14 +248,14 @@ main {
 }
 
 h1 {
-    color: white;
+    color: black;
     font-size: 4.25rem;
 
     margin-bottom: 1.5rem;
 }
 
 p {
-    color: white;
+    color: black;
     font-size: 1.2rem;
     font-weight: 200;
     max-width: 40rem;
