@@ -311,7 +311,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: black;
     text-decoration: none;
     background: var(--main-color);
     border: 2px solid var(--border-color);
