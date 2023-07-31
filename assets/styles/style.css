@@ -335,6 +335,9 @@ nav a {
 }
 
 nav a:hover {
-    box-shadow: none;
-    transform: translateY(5px);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+nav a:active {
+    background-color: rgba(255, 255, 255, 0.2);
 }
