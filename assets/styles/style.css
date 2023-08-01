@@ -257,20 +257,6 @@ main {
     text-align: center;
 }
 
-main nav a {
-    background-color: transparent;
-    border: solid gray 1px;
-    padding: 0.75rem 3rem;
-    border-radius: 0.5rem;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    color: white;
-    font-size: larger;
-    margin-bottom: 0.5rem;
-    transition: all 0.1s;
-}
-
 h1 {
     color: white;
     font-size: 4.25rem;
@@ -318,7 +304,7 @@ nav {
     align-items: center;
     gap: 2rem;
     width: 100%;
-    margin-top: 15rem;
+    margin-top: 2rem;
 }
 
 @media only screen and (max-width: 786px) {
