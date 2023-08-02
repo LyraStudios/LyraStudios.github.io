@@ -13,13 +13,13 @@
 <body>
 <h1 style="text-align: center;">Bookmarklets</h1>  
 <nav>
-    <a href="https://www.patreon.com/LyraStudios" title="">You spin me right round</a>
-    <a href="/games.html" title="">Invert Colors</a>
-    <a href="/chat.html" title="">Blank</a>
+    <a href="javascript:(function(){document.documentElement.style.transitionDuration="60s";document.documentElement.style.transitionTimingFunction="ease-in";document.documentElement.style.transform="rotate(360000dg)";}());" title="">You spin me right round</a>
+    <a href="javascript: (function () {var url = prompt('Paste the link you want to be embedded into an about:blank page.\n(INCLUDE https://)', 'https://example.com%27/); var urlObj = new window.URL(window.location.href); win = window.open(); win.document.body.style.margin = '0'; win.document.body.style.height = '100vh'; var iframe = win.document.createElement('iframe'); iframe.style.border = 'none'; iframe.style.width = '100%'; iframe.style.height = '100%'; iframe.style.margin = '0'; iframe.referrerpolicy = 'no-referrer'; iframe.allow = 'fullscreen'; iframe.src = url.toString(); win.document.body.appendChild(iframe); var script = win.document.createElement('script'); script.src = 'https://3kh0.github.io/js/main.js'; win.document.body.appendChild(script); })();" title="">About Blank</a>
+    <a href="javascript:var a='https://returnyoutube54islikeapi.com/votes?videoId=%27;var%20b=location.search.split(%27v=%27)[1].split(%27&%27)[0];if(location.hostname===%27www.youtube.com%27){open(a+b);}else%20if(location.hostname===%27youtu.be%27){open(a+b);}else%20if(location.hostname===%27www.youtube-nocookie.com%27){open(a+b);}" title="">Return YT Dislikes</a>
     <a href="javascript:if(document.getElementsByClassName("video-ads")[0].innerHTML !==""){ var banner = false; for(var i = 0; i < document.getElementsByClassName("ytp-ad-overlay-close-button").length; i++){ document.getElementsByClassName("ytp-ad-overlay-close-button")[i].click(); banner = true;} if(banner === false){ document.getElementsByClassName("html5-main-video")[0].currentTime = document.getElementsByClassName("html5-main-video")[0].duration; document.getElementsByClassName("ytp-ad-skip-button")[0].click();} }void 0;" title="">Skip YT ad</a>
-    <a href="/about.html" title="">Flood History</a>                               
+    <a href="javascript:(function()%7Bvar num%3Dprompt("How Times Do You Want This Page To Show Up In your History%3F")%3Bdone%3Dfalse%3Bx%3Dwindow.location.href%3Bfor (var i%3D1%3B i<%3Dnum%3B i%2B%2B)%7Bhistory.pushState(0%2C 0%2C i%3D%3Dnum%3Fx%3Ai.toString())%3Bif(i%3D%3Dnum)%7Bdone%3Dtrue%7D%7Dif(done%3D%3D%3Dtrue)%7Balert("History Flooding Successful!%5Cn "%2Bwindow.location.href%2B" %5CnNow Appears In Your History "%2Bnum%2B(num%3D%3D1%3F" time."%3A" Times. %5CnMade By%3A NotJack173"))%7D%7D)()%3B" title="">Flood History</a>                               
 </nav>  
 
 
 </body>
-</html>
+</html> 
