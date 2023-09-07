@@ -7,7 +7,7 @@
     --background-color: rgb(12, 13, 14);
 }
 
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
 article,
 aside,
 details,
@@ -240,7 +240,7 @@ table {
 
 body {
     background-color: var(--background-color);
-    /* background-image: url("../images/background.png"); */
+   
     background-size: cover;
     background-repeat: no-repeat;
     font-family: "Outfit", sans-serif;
