@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyra Studios | Rules</title>
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(45deg, #000000, #42403d); 
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            animation: fadeInBG 2s ease; 
+        }
+
+        .container {
+            max-width: 800px;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.9); 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 36px;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #000000;
+            animation: heartbeat 1.5s ease infinite;
+        }
+
+        .rule-section ul {
+            padding-left: 30px;
+        }
+
+        .rule-section li {
+            font-size: 16px;
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+
+        
+
+        @keyframes fadeInBG {
+            from {
+                background: #000000;
+            }
+            to {
+                background: #757575;
+            }
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        @keyframes heartbeat {
+            from {
+                transform: scale(1);
+            }
+            to {
+                transform: scale(1.05);
+            }
+        }
+    </style>
+    <script>
+        function toggleRules() {
+            var rulesContainer = document.getElementById('rules-container');
+            if (rulesContainer.style.display === 'none') {
+                rulesContainer.style.display = 'block';
+            } else {
+                rulesContainer.style.display = 'none';
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Lyra Studios Rules</h1>
+        <button onclick="toggleRules()">More / Less</button>
+        <div id="rules-container" style="display: none;">
+            <p class="important-text">Welcome to our <strong>Rules</strong>, make sure to read them all</p>
+            <div class="rule-section">
+                <ul>
+                    <li><strong class="important-text">1. Be repectful in chat</strong>
+                        <ul>
+                            <li>- This includes spamming, caps, and cursing.</li>
+                            <li>- Saying slurs or being sexual will also result in a ban.</li>
+                        </ul>
+                    </li>
+                    <li><strong class="important-text">2. Forking</strong>
+                        <ul>
+                            <li>- Please do not fork without either giving us credit and asking us.</li>
+                            <li>- We can and will remove your site if you do not ask.</li>
+                        </ul>
+                    </li>
+                    <li><strong class="important-text">3. Embedding</strong>
+                        <ul>
+                            <li>- You are allowed to embed our games in your site just ask.</li>
+                            <li>- If this rule is abused we will remove the ability to embed our site.</li>
+                        </ul>
+                    </li>
+                    <li><strong class="important-text">4. Stealing ideas</strong>
+                        <ul>
+                            <li>- Do not steal our idea and make a site exactly like ours with the same name or close to one.</li>
+                            <li>- As we grow we do expect for there to be cheap copys of our site.</li>
+                        </ul>
+                    </li>
+                    <li><strong class="important-text">5. Stealing code</strong>
+                        <ul>
+                            <li>- Stright up stealing code will never be allowed at any degree.</li>
+                            <li>- We have worked hard to make the code we do not want you taking it for your own site.</li>
+                        </ul>
+                    </li>
+                    <li><strong class="important-text">6. Speak in english</strong>
+                        <ul>
+                            <li>- Please speak english in chat to make it easier to moderate.</li>
+                            <li>- do not use other languages to curse we will ban you for that.</li>
+                        </ul>
+                    </li>
+                    <li><strong class="important-text">7. Do not release personal info in chat</strong>
+                        <ul>
+                            <li>- This includes Student IDs passwords and pictures</li>
+                            <li>- Breaking these rules will be a perm ban from chat.</li>
+                            <li>- Do not try to grab IP's.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <p class="important-text">By using this site you agree to these rules and you shall follow them.</p>
+            <p>Warning, these rules can be changed at <strong>anytime</strong></p>
+            <p>Thanks for reading the rules!</p>
+        </div>
+    </div>
+</body>
+</html>
