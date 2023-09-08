@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Binding Of isaac</title>
+</head>
+<body>
+    <script>
+        window.RufflePlayer = window.RufflePlayer || {};
+    
+        window.addEventListener("DOMContentLoaded", () => {
+            let ruffle = window.RufflePlayer.newest();
+            let player = ruffle.createPlayer();
+            let container = document.getElementById("container");
+            container.appendChild(player);
+            player.load("/swf/581168_Isaac_demo_Secure.swf");
+        });
+    </script>
+    <script src="/ruffle/ruffle.js"></script>
+</body>
+</html>
