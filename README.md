@@ -2,7 +2,7 @@
 
 # Lyra Studios
 
-Lyra studios is one of the best modern unblocked game sites. Check it out <a href="https://lyrastudios.github.io">here</a>. If this link is blocked, you can get more links in our <a href="https://dsc.gg/lyragamesbruh">Discord Server!</a>
+Lyra studios is one of the best modern game sites. Check it out <a href="https://lyrastudios.github.io">here</a>. If this link is blocked, you can get more links in our <a href="https://dsc.gg/lyragamesbruh">Discord Server!</a>
 
 <a href="https://discord.gg/jjzyfJ3mst"><img height="30px" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"><img></a>
 <a href="https://github.com/LyraStudios"><img height="30px" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"><img></a>
