@@ -5,13 +5,21 @@
     <title>Binding Of isaac</title>
 </head>
 <body>
+   <script src="ruffle/ruffle.js"></script>
     <script>
-   player.load("/swf/581168_Isaac_demo_Secure.swf").then(() => {
-    console.info("Ruffle successfully loaded the file");
-}).catch((e) => {
-    console.error(`Ruffle failed to load the file: ${e}`);
-});
-</script>
-   <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+        window.RufflePlayer = window.RufflePlayer || {};
+        window.addEventListener("load", (event) => {
+            const ruffle = window.RufflePlayer.newest();
+            const player = ruffle.createPlayer();
+            const container = document.getElementById("container"); 
+            container.appendChild(player);
+            player.load({
+                url: "581168_Isaac_demo_Secure.swf", 
+                backgroundColor: "#000", 
+             });
+            player.style.width = "450px"; 
+            player.style.height = "450px";
+        });
+    </script>
 </body>
 </html>
